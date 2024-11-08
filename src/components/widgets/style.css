@@ -1,0 +1,37 @@
+.custom-section-google-map {
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    margin-top: 10px;
+  }
+
+  @media (width > 800px) { 
+    .custom-section-google-map {
+      width: 50%;
+    }
+  }
+
+.plane:hover > div {
+  position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #29212178;
+    z-index: 10;
+    transition: .3s;
+}
+  .showPlane {
+    position: absolute;
+    background: transparent;
+  }
+  .showPlane > button {
+    background: #3c220f;
+    padding: 6px 20px;
+    border-radius: 5px;
+  }
+
+  a:target > .showPlane {
+    background: red;
+  }
