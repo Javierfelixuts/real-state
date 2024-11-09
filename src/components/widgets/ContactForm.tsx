@@ -52,7 +52,7 @@ const ContactForm = () => {
        <SvgSpinners90RingWithBg className='spinner'/>
      }
       <div
-        className="text-center flex justify-start max-w-xl mx-auto dark:bg-slate-900 shadow sm:p-6 lg:p-8 w-full backdrop-blur rounded-tr-lg rounded-tl-lg"
+        className="bg-white text-center flex justify-start max-w-xl mx-auto dark:bg-[#3c220f] shadow sm:p-6 lg:p-8 w-full backdrop-blur rounded-tr-lg rounded-tl-lg"
       >
         <div className="text-left m-4 text-sm">
           <h1 className="font-bold text-left text-4xl mb-2">CONTACT US</h1>
@@ -63,17 +63,17 @@ const ContactForm = () => {
         </div>
       </div>
       <form onSubmit={handleSubmit}>
-        <div className="flex flex-col max-w-xl mx-auto  backdrop-blur border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-900 shadow p-2 sm:px-6 lg:px-8 w-full">
-          <input className='py-2 px-4 block w-full text-md rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-900' type="text" name="name" value={formData.name} onChange={handleChange} placeholder="Name" required />
+        <div className="flex flex-col max-w-xl mx-auto  backdrop-blur border-gray-200 dark:border-gray-700 bg-white dark:bg-[#3c220f] shadow p-2 sm:px-6 lg:px-8 w-full">
+          <input className='py-2 px-4 block w-full text-md rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-[#3c220f]' type="text" name="name" value={formData.name} onChange={handleChange} placeholder="Name" required />
         </div>
-        <div className="flex flex-col max-w-xl mx-auto  backdrop-blur border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-900 shadow p-2 sm:px-6 lg:px-8 w-full">
-          <input className='py-2 px-4 block w-full text-md rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-900' type="email" name="email" value={formData.email} onChange={handleChange} placeholder="Email" required />
+        <div className="flex flex-col max-w-xl mx-auto  backdrop-blur border-gray-200 dark:border-gray-700 bg-white dark:bg-[#3c220f] shadow p-2 sm:px-6 lg:px-8 w-full">
+          <input className='py-2 px-4 block w-full text-md rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-[#3c220f]' type="email" name="email" value={formData.email} onChange={handleChange} placeholder="Email" required />
         </div>
-        <div className="flex flex-col max-w-xl mx-auto  backdrop-blur border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-900 shadow p-2 sm:px-6 lg:px-8 w-full">
-          <textarea className='py-2 px-4 block w-full text-md rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-900' name="message" value={formData.message} onChange={handleChange} placeholder="Message" required />
+        <div className="flex flex-col max-w-xl mx-auto  backdrop-blur border-gray-200 dark:border-gray-700 bg-white dark:bg-[#3c220f] shadow p-2 sm:px-6 lg:px-8 w-full">
+          <textarea className='py-2 px-4 block w-full text-md rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-[#3c220f]' name="message" value={formData.message} onChange={handleChange} placeholder="Message" required />
         </div>
 
-        <div className="items-start flex max-w-xl mx-auto  backdrop-blur border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-900 shadow p-2 sm:px-6 lg:px-8 w-full"  > 
+        <div className="items-start flex max-w-xl mx-auto  backdrop-blur border-gray-200 dark:border-gray-700 bg-white dark:bg-[#3c220f] shadow p-2 sm:px-6 lg:px-8 w-full"  > 
           <div className="flex mt-0.5"  >
           <input id="disclaimer" name="disclaimer" type="checkbox" className="cursor-pointer mt-1 py-3 px-4 block w-full text-md rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-900" />
         </div>
@@ -82,8 +82,8 @@ const ContactForm = () => {
           </div>
         </div>
 
-        <div className="flex flex-col max-w-xl mx-auto  backdrop-blur border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-900 shadow p-4 sm:px-6 lg:px-8 w-full">
-          <button className='btn-primary' type="submit" disabled={isLoading}>Contact us</button>
+        <div className="flex flex-col max-w-xl mx-auto  backdrop-blur bg-white dark:bg-[#3c220f] shadow p-4 sm:px-6 lg:px-8 w-full">
+          <button className='btn-secondary dark:bg-[#7a5439]' type="submit" disabled={isLoading}>Contact us</button>
         </div>
       </form>
     </div>

@@ -23,14 +23,15 @@ export default function SectionYards() {
           <div className="md:max-w-sm">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none group font-heading mb-2">
               Projects
-            </h2><a className="cursor-pointer hover:text-primary" href="/blog"> View all posts » </a>
+            </h2>
           </div>
-        </div><div className="grid gap-6 row-gap-5 md:grid-cols-2 lg:grid-cols-4 -mb-6">
+        </div>
+        <div className="grid gap-6 row-gap-5 md:grid-cols-2 lg:grid-cols-4 -mb-6">
           <article className="mb-6 transition">
             <div className="relative md:h-64 bg-gray-400 dark:bg-slate-700 rounded shadow-lg mb-6">
-              <a className="plane" data-astro-source-loc="25:26">
+              <a className="plane" >
                 <div className="showPlane">
-                  <button onClick={showPlane}>Show plane</button>
+                  <button onClick={showPlane} className="text-white">Show plane</button>
                 </div>
                 <img
                   src="src/assets/images/plane.png"
@@ -43,19 +44,15 @@ export default function SectionYards() {
             </div>
             <h3 className="text-xl sm:text-2xl font-bold leading-tight mb-2 font-heading dark:text-slate-300">
               <a
-                className="inline-block hover:text-primary dark:hover:text-blue-700 transition ease-in duration-200"
-                href="#"
+                className="inline-block hover:text-primary transition ease-in duration-200"
               >
-                Get started with Real State to create a website using Astro and Tailwind CSS
+                PLANE
               </a>
             </h3>
-            <p className="text-muted dark:text-slate-400 text-lg">
-              Start your web journey with Real State – harness Astro and Tailwind CSS for a stunning site. Explore our guide
-              now.
-            </p>
+            
           </article><article className="mb-6 transition">
             <div className="relative md:h-64 bg-gray-400 dark:bg-slate-700 rounded shadow-lg mb-6">
-              <a href="#">
+              <a >
                 <img
                   src="src/assets/images/yard_02.jpeg"
                   className="w-full md:h-full rounded shadow-lg bg-gray-400 dark:bg-slate-700"
@@ -67,19 +64,15 @@ export default function SectionYards() {
             </div>
             <h3 className="text-xl sm:text-2xl font-bold leading-tight mb-2 font-heading dark:text-slate-300">
               <a
-                className="inline-block hover:text-primary dark:hover:text-blue-700 transition ease-in duration-200"
-                href="#"
+                className="inline-block hover:text-primary transition ease-in duration-200"
               >
-                Useful tools and resources to create a professional website
+                Create a modern and functional house on strategically located land.
               </a>
             </h3>
-            <p className="text-muted dark:text-slate-400 text-lg">
-              Explore vital tools and resources for a sleek website. From design to functionality, our guide elevates your
-              online presence.
-            </p>
+            
           </article><article className="mb-6 transition">
             <div className="relative md:h-64 bg-gray-400 dark:bg-slate-700 rounded shadow-lg mb-6">
-              <a href="/how-to-customize-Real State-to-your-brand">
+              <a>
                 <img
                   src="src/assets/images/yard_03.jpeg"
                   className="w-full md:h-full rounded shadow-lg bg-gray-400 dark:bg-slate-700"
@@ -91,19 +84,15 @@ export default function SectionYards() {
             </div>
             <h3 className="text-xl sm:text-2xl font-bold leading-tight mb-2 font-heading dark:text-slate-300">
               <a
-                className="inline-block hover:text-primary dark:hover:text-blue-700 transition ease-in duration-200"
-                href="/how-to-customize-Real State-to-your-brand"
+                className="inline-block hover:text-primary transition ease-in duration-200"
               >
-                How to customize Real State template to suit your branding
+                 Maximize the value of the land through an efficient and attractive design.
               </a>
             </h3>
-            <p className="text-muted dark:text-slate-400 text-lg">
-              Personalize Real State template for your brand. Our guide unlocks seamless customization steps for a unique
-              online presence.
-            </p>
+           
           </article><article className="mb-6 transition">
             <div className="relative md:h-64 bg-gray-400 dark:bg-slate-700 rounded shadow-lg mb-6">
-              <a href="/Real State-template-in-depth">
+              <a >
                 <img
                   src="src/assets/images/yard_04.jpeg"
                   className="w-full md:h-full rounded shadow-lg bg-gray-400 dark:bg-slate-700"
@@ -115,16 +104,13 @@ export default function SectionYards() {
             </div>
             <h3 className="text-xl sm:text-2xl font-bold leading-tight mb-2 font-heading dark:text-slate-300">
               <a
-                className="inline-block hover:text-primary dark:hover:text-blue-700 transition ease-in duration-200"
-                href="/Real State-template-in-depth"
+                className="inline-block hover:text-primary transition ease-in duration-200"
+                
               >
                 Real State template in depth
               </a>
             </h3>
-            <p className="text-muted dark:text-slate-400 text-lg">
-              While easy to get started, Real State is quite complex internally. This page provides documentation on some of
-              the more intricate parts.
-            </p>
+            
           </article>
         </div>
       </div>
