@@ -33,7 +33,7 @@ const {
         {
           tagline && (
             <p
-              class="text-base text-secondary dark:text-blue-200 font-bold tracking-wide uppercase"
+              class="text-base text-secondary dark:text-blue-200 font-bold tracking-wide uppercase intersect-once intersect-quarter motion-safe:md:opacity-0 motion-safe:md:intersect:animate-fade"
               set:html={tagline}
             />
           )
@@ -41,13 +41,13 @@ const {
         {
           title && (
             <h1
-              class="text-5xl md:text-6xl font-bold leading-tighter tracking-tighter mb-4 font-heading text-white dark:text-white"
+              class="text-5xl md:text-6xl font-bold leading-tighter tracking-tighter mb-4 font-heading text-white dark:text-white intersect-once intersect-quarter motion-safe:md:opacity-0 motion-safe:md:intersect:animate-fade"
               set:html={title}
             />
           )
         }
         <div class="max-w-3xl mx-auto">
-          {subtitle && <p class="text-xl text-white mb-6 dark:white" set:html={subtitle} />}
+          {subtitle && <p class="text-xl text-white mb-6 dark:white intersect-once intersect-quarter motion-safe:md:opacity-0 motion-safe:md:intersect:animate-fadeInLeft" set:html={subtitle} />}
           {
             actions && (
               <div class="max-w-xs sm:max-w-md m-auto flex flex-nowrap flex-col sm:flex-row sm:justify-center gap-4">

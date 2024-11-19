@@ -14,7 +14,7 @@ export default function SectionYards() {
   }
   return (<>
 
-    <section className="relative not-prose scroll-mt-[72px]">
+    <section className="relative not-prose scroll-mt-[72px] intersect-once intersect-quarter motion-safe:md:opacity-0 motion-safe:md:intersect:animate-fade">
       <div className="absolute inset-0 pointer-events-none -z-[1]" aria-hidden="true">
         <div className="absolute inset-0"></div>
       </div>

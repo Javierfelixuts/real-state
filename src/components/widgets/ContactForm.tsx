@@ -46,7 +46,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className={`relative px-4 md:px-6 md:py-16 text-default max-w-7xl mx-auto py-0 lg:py-0 ${isLoading ? 'customOpacity' : '' }`}>
+    <div className={`relative px-4 md:px-6 md:py-16 text-default max-w-7xl mx-auto py-0 lg:py-0 intersect-once intersect-quarter motion-safe:md:opacity-0 motion-safe:md:intersect:animate-fade ${isLoading ? 'customOpacity' : '' }`}>
      {
       isLoading &&
        <SvgSpinners90RingWithBg className='spinner'/>
@@ -57,7 +57,7 @@ const ContactForm = () => {
         <div className="text-left m-4 text-sm">
           <h1 className="font-bold text-left text-4xl mb-2">CONTACT US</h1>
           <address>8230 E Broadway Blvd Suite E4, Tucson, AZ 85710 </address>
-          <p>manuel@mallemollc.com</p>
+          <p>gustavo.aguilar@gj-realestate.com</p>
           <span>Phone:</span><span> (520) 886-9117</span>
           <p>Fax: (520) 423-3956</p>
         </div>

@@ -3,7 +3,7 @@ import Layout from '~/layouts/PageLayout.astro';
 
 import Hero from '~/components/widgets/Hero.astro';
 import Features from '~/components/widgets/Features.astro';
-import FAQs from '~/components/widgets/FAQs.astro';
+/* import FAQs from '~/components/widgets/FAQs.astro'; */
 import SectionYards from '~/components/SectionYards.tsx';
 import ContactForm from '~/components/widgets/ContactForm';
 const metadata = {
@@ -65,7 +65,7 @@ const metadata = {
       },
     ]}
   />
-
+  
   <!-- Content Widget **************** -->
 
   <!-- Content Widget **************** -->
@@ -84,7 +84,7 @@ const metadata = {
 
   <!-- FAQs Widget ******************* -->
 
-  <FAQs
+  <!-- <FAQs
     id="services"
     title="OUR SERVICES"
     subtitle="Explore our services to discover how our innovative approaches in real estate development, design, and project management can transform your experience in creating sustainable, high-quality communities."
@@ -113,7 +113,7 @@ const metadata = {
       },
       
     ]}
-  />
+  /> -->
 
  
 <span id="contact"></span>
@@ -121,7 +121,7 @@ const metadata = {
   <div class="mt-12 mb-12 flex justify-center items-start flex-wrap">
     <ContactForm client:load />
     
-      <section class="custom-section-google-map relative not-prose scroll-mt-[72px]  h-full">
+      <section class="custom-section-google-map relative not-prose scroll-mt-[72px]  h-full intersect-once intersect-quarter motion-safe:md:opacity-0 motion-safe:md:intersect:animate-fade">
   
         <iframe class="" title="address map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3375.4059646934315!2d-110.81903072390907!3d32.220233912231166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86d66f4efe74628d%3A0x7f9026aaee4fa38f!2s8230%20E%20Broadway%20Blvd!5e0!3m2!1ses-419!2smx!4v1727295719986!5m2!1ses-419!2smx" width="100%"  style="height: 80vh;"
      allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
