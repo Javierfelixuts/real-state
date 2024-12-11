@@ -1,5 +1,8 @@
 import Swal from "sweetalert2";
-
+import plane from 'src/assets/images/plane.png';
+import image_02 from 'src/assets/images/yard_02.jpeg';
+import image_03 from 'src/assets/images/yard_03.jpeg';
+import image_04 from 'src/assets/images/yard_04.jpeg';
 export default function SectionYards() {
   async function showPlane() {
     Swal.fire({
@@ -34,11 +37,11 @@ export default function SectionYards() {
                   <button onClick={showPlane} className="text-white">Show plane</button>
                 </div>
                 <img
-                  src="src/assets/images/plane.png"
+                  src={plane.src}
                   className="w-full md:h-full rounded shadow-lg bg-gray-400 dark:bg-slate-700"
                   width="400"
                   sizes="(max-width: 900px) 400px, 900px"
-                  alt="Get started with Real State to create a website using Astro and Tailwind CSS"
+                  alt="Get started with Real Estate to create a website using Astro and Tailwind CSS"
                 />
               </a>
             </div>
@@ -54,7 +57,7 @@ export default function SectionYards() {
             <div className="relative md:h-64 bg-gray-400 dark:bg-slate-700 rounded shadow-lg mb-6">
               <a >
                 <img
-                  src="src/assets/images/yard_02.jpeg"
+                  src={image_02.src}
                   className="w-full md:h-full rounded shadow-lg bg-gray-400 dark:bg-slate-700"
                   width="400"
                   sizes="(max-width: 900px) 400px, 900px"
@@ -74,11 +77,11 @@ export default function SectionYards() {
             <div className="relative md:h-64 bg-gray-400 dark:bg-slate-700 rounded shadow-lg mb-6">
               <a>
                 <img
-                  src="src/assets/images/yard_03.jpeg"
+                  src={image_03.src}
                   className="w-full md:h-full rounded shadow-lg bg-gray-400 dark:bg-slate-700"
                   width="400"
                   sizes="(max-width: 900px) 400px, 900px"
-                  alt="How to customize Real State template to suit your branding"
+                  alt="How to customize Real Estate template to suit your branding"
                 />
               </a>
             </div>
@@ -94,11 +97,11 @@ export default function SectionYards() {
             <div className="relative md:h-64 bg-gray-400 dark:bg-slate-700 rounded shadow-lg mb-6">
               <a >
                 <img
-                  src="src/assets/images/yard_04.jpeg"
+                  src={image_04.src}
                   className="w-full md:h-full rounded shadow-lg bg-gray-400 dark:bg-slate-700"
                   width="400"
                   sizes="(max-width: 900px) 400px, 900px"
-                  alt="Real State template in depth"
+                  alt="Real Estate template in depth"
                 />
               </a>
             </div>
@@ -107,7 +110,7 @@ export default function SectionYards() {
                 className="inline-block hover:text-primary transition ease-in duration-200"
                 
               >
-                Real State template in depth
+                Real Estate template in depth
               </a>
             </h3>
             

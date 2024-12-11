@@ -1,5 +1,5 @@
 import { getPermalink } from './utils/permalinks';
-
+import logo from 'src/assets/images/real-estate.png'
 export const headerData = {
   links: [
       
@@ -51,7 +51,7 @@ export const footerData = {
     { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' }, */
   ],
   footNote: `
-    <img class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 rtl:mr-0 rtl:ml-1.5 float-left rtl:float-right rounded-sm" src="src/assets/images/real-estate.png" alt="onWidget logo" loading="lazy"></img>
-    <a class="text-blue-600 underline dark:text-muted" href="https://real-state.com/">REAL STATE </a> · All rights reserved.
+    <img class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 rtl:mr-0 rtl:ml-1.5 float-left rtl:float-right rounded-sm" src=${logo.src} alt="onWidget logo" loading="lazy"></img>
+    <a class="text-blue-600 underline dark:text-muted" href="https://gj-realestate.com/">REAL ESTATE </a> · All rights reserved.
   `,
 };

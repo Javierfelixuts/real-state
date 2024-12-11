@@ -61,6 +61,7 @@ export default defineConfig({
     rehypePlugins: [responsiveTablesRehypePlugin, lazyImagesRehypePlugin]
   },
   vite: {
+    assetsInclude: ['**/*.jpg', '**/*.jpeg', '**/*.png'],
     resolve: {
       alias: {
         '~': path.resolve(__dirname, './src')
